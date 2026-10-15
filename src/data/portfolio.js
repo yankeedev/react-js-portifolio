@@ -5,8 +5,8 @@ export const profile = {
   tagline: 'I build fast, accessible and delightful web experiences.',
   heroDescription:
     'I craft modern interfaces with React and clean, maintainable code. From pixel-perfect landing pages to full web apps, I turn ideas into products people love to use.',
-  location: 'Nairobi, Kenya',
-  email: 'hello@emerybarame.dev',
+  location: 'Kigali, Rwanda',
+  email: 'emerybarame60@gmail.com',
   resumeUrl: '#',
   avatar: '/img/avatar-image.png',
   heroImage: '/img/hero_img.png',
@@ -30,7 +30,7 @@ export const socials = [
 ];
 
 export const stats = [
-  { value: '5+', label: 'Years of experience' },
+  { value: '2+', label: 'Years of experience' },
   { value: '40+', label: 'Projects shipped' },
   { value: '30+', label: 'Happy clients' },
 ];
