@@ -107,7 +107,7 @@ textarea {
   text-align: center;
 }
 
-.section-heading .eyebrow {
+.eyebrow {
   display: inline-block;
   font-family: var(--font-heading);
   font-weight: 600;
