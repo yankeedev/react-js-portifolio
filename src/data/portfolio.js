@@ -10,7 +10,7 @@ export const profile = {
   resumeUrl: '#',
   avatar: '/img/avatar-image.png',
   heroImage: '/img/hero_img.png',
-  aboutImage: '/img/about-me.png',
+  aboutImage: '/img/about-me.jpg',
 };
 
 export const navLinks = [
