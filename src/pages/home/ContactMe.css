@@ -1,0 +1,123 @@
+.contact__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.contact__title {
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  margin-bottom: 18px;
+}
+
+.contact__text {
+  margin-bottom: 30px;
+  color: var(--color-text);
+}
+
+.contact__details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.contact__details li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: var(--color-heading);
+  font-weight: 500;
+}
+
+.contact__details a:hover {
+  color: var(--color-primary);
+}
+
+.contact__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+}
+
+.contact__form {
+  padding: 36px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background-color: var(--color-bg);
+  box-shadow: var(--shadow-sm);
+}
+
+.contact__success {
+  margin-bottom: 22px;
+  padding: 14px 18px;
+  border-radius: var(--radius-sm);
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+  font-weight: 500;
+}
+
+.contact__field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contact__field label {
+  margin-bottom: 8px;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-heading);
+}
+
+.contact__field input,
+.contact__field textarea {
+  padding: 13px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background-color: var(--color-bg-alt);
+  color: var(--color-heading);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease,
+    background-color 0.2s ease;
+  resize: vertical;
+}
+
+.contact__field input:focus,
+.contact__field textarea:focus {
+  outline: none;
+  background-color: var(--color-bg);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(94, 59, 238, 0.15);
+}
+
+.contact__field input[aria-invalid='true'],
+.contact__field textarea[aria-invalid='true'] {
+  border-color: #e5484d;
+}
+
+.contact__error {
+  margin-top: 6px;
+  font-size: 0.82rem;
+  color: #e5484d;
+}
+
+.contact__submit {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .contact__inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .contact__form {
+    padding: 28px;
+  }
+}
